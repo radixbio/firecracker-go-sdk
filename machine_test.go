@@ -39,10 +39,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	models "github.com/firecracker-microvm/firecracker-go-sdk/client/models"
-	"github.com/firecracker-microvm/firecracker-go-sdk/client/operations"
-	ops "github.com/firecracker-microvm/firecracker-go-sdk/client/operations"
-	"github.com/firecracker-microvm/firecracker-go-sdk/fctesting"
+	models "github.com/radixbio/firecracker-go-sdk/client/models"
+	"github.com/radixbio/firecracker-go-sdk/client/operations"
+	ops "github.com/radixbio/firecracker-go-sdk/client/operations"
+	"github.com/radixbio/firecracker-go-sdk/fctesting"
 )
 
 const (
@@ -1053,7 +1053,7 @@ func TestCaptureFifoToFile_nonblock(t *testing.T) {
 	// captureFifoToFile. This is due to the fifo being opened with O_NONBLOCK,
 	// which causes io.Copy to exit immediately with no error.
 	//
-	// https://github.com/firecracker-microvm/firecracker-go-sdk/issues/156
+	// https://github.com/radixbio/firecracker-go-sdk/issues/156
 	time.Sleep(250 * time.Millisecond)
 
 	f, err := os.OpenFile(fifoPath, os.O_RDWR, 0600)

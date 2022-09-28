@@ -8,9 +8,9 @@ import (
 	"reflect"
 	"testing"
 
-	models "github.com/firecracker-microvm/firecracker-go-sdk/client/models"
-	ops "github.com/firecracker-microvm/firecracker-go-sdk/client/operations"
-	"github.com/firecracker-microvm/firecracker-go-sdk/fctesting"
+	models "github.com/radixbio/firecracker-go-sdk/client/models"
+	ops "github.com/radixbio/firecracker-go-sdk/client/operations"
+	"github.com/radixbio/firecracker-go-sdk/fctesting"
 )
 
 func TestHandlerListAppend(t *testing.T) {

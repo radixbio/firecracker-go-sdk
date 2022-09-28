@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	models "github.com/firecracker-microvm/firecracker-go-sdk/client/models"
-	"github.com/firecracker-microvm/firecracker-go-sdk/fctesting"
+	models "github.com/radixbio/firecracker-go-sdk/client/models"
+	"github.com/radixbio/firecracker-go-sdk/fctesting"
 )
 
 func TestClient(t *testing.T) {
