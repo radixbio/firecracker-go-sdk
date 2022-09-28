@@ -17,6 +17,7 @@ require (
 	github.com/sirupsen/logrus v1.7.0
 	github.com/sparrc/go-ping v0.0.0-20190613174326-4e5b6552494c
 	github.com/stretchr/testify v1.6.1
+	github.com/vishvananda/netns v0.0.0-20210104183010-2eb08e3e575f
 	github.com/vishvananda/netlink v1.1.0
 	golang.org/x/sys v0.0.0-20200323222414-85ca7c5b95cd
 )
